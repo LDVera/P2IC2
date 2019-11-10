@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/stilos.css">
+    <title>Parcial 2 Luis Diego Vera Alvarez</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">RTec</a>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <div class="col-2">
+                            <a class="nav-link active hover" href="index.html">Inicio</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <div class="col-2">
+                            <a class="nav-link active perso1 data-tooltip" title="Bienvenido" href="Login.html">Login</a>
+                        </div>
+                    </li>
+                    <!--
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                -->
+                    <li class="nav-item active">
+                        <div class="col-2">
+                            <a class="nav-link active perso1" href="Registro.html" tabindex="-1" aria-disabled="true">Registro</a>
+                        </div>
+                    </li>
+                    <li></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="fondo">
+        <section>
+            <!--imagen de fondo-->
+            <div>
+                <!--sombreado-->
+                <div class="row-2 mx-auto bg-gradiente-dark sombra">
+                    <div class="col-4  mx-auto text-center centrado">
+                        <div class="row">
+                            <div class="col">
+                                <img src="img/TICs_web.png" alt="">
+                            </div>
+                        </div>
+                        <hr/>
+                        <h1>RTec Login</h1>
+                        <p>Bienvenido al sistema</p>
+                        <hr/>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="password">
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="row">
+
+                            <div class="col">
+                                <button>Ingresar</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    <script>
+        $(function() {
+            $('[data-tooltip]').tooltip();
+        });
+    </script>
+</body>
+
+</html>
